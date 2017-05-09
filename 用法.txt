@@ -23,3 +23,11 @@ HEADÖ¸ÏòµÄ°æ±¾¾ÍÊÇµ±Ç°°æ±¾£¬HEAD^ÎªÉÏÒ»¸ö°æ±¾£¬HEAD~100ÎªÉÏ100¸ö°æ±¾£¬Òò´Ë£¬GitÔ
 5.É¾³ýÎÄ¼þ£¨ÐÞ¸ÄµÄÒ»ÖÖ£©£º
 Í¨³£Ö±½ÓÔÚÎÄ¼þ¹ÜÀíÆ÷ÖÐ°ÑÃ»ÓÃµÄÎÄ¼þÉ¾ÁË£¬»òÕßÓÃrmÃüÁîÉ¾ÁË
 ÃüÁîgit rmÓÃÓÚÉ¾³ýÒ»¸öÎÄ¼þ¡£Èç¹ûÒ»¸öÎÄ¼þÒÑ¾­±»Ìá½»µ½°æ±¾¿â£¬ÄÇÃ´ÄãÓÀÔ¶²»ÓÃµ£ÐÄÎóÉ¾£¬µ«ÊÇÒªÐ¡ÐÄ£¬ÄãÖ»ÄÜ»Ö¸´ÎÄ¼þµ½×îÐÂ°æ±¾£¬Äã»á¶ªÊ§×î½üÒ»´ÎÌá½»ºóÄãÐÞ¸ÄµÄÄÚÈÝ¡£
+
+6.´´½¨SSH KEY£º
+µÚ1²½£º´´½¨SSH Key¡£ÔÚÓÃ»§Ö÷Ä¿Â¼ÏÂ£¬¿´¿´ÓÐÃ»ÓÐ.sshÄ¿Â¼£¬Èç¹ûÓÐ£¬ÔÙ¿´¿´Õâ¸öÄ¿Â¼ÏÂÓÐÃ»ÓÐid_rsaºÍid_rsa.pubÕâÁ½¸öÎÄ¼þ£¬Èç¹ûÒÑ¾­ÓÐÁË£¬¿ÉÖ±½ÓÌøµ½ÏÂÒ»²½¡£Èç¹ûÃ»ÓÐ£¬´ò¿ªShell£¨WindowsÏÂ´ò¿ªGit Bash£©£¬´´½¨SSH Key£º
+$ ssh-keygen -t rsa -C "youremail@example.com"
+ÄãÐèÒª°ÑÓÊ¼þµØÖ·»»³ÉÄã×Ô¼ºµÄÓÊ¼þµØÖ·£¬È»ºóÒ»Â·»Ø³µ£¬Ê¹ÓÃÄ¬ÈÏÖµ¼´¿É£¬ÓÉÓÚÕâ¸öKeyÒ²²»ÊÇÓÃÓÚ¾üÊÂÄ¿µÄ£¬ËùÒÔÒ²ÎÞÐèÉèÖÃÃÜÂë¡£
+Èç¹ûÒ»ÇÐË³ÀûµÄ»°£¬¿ÉÒÔÔÚÓÃ»§Ö÷Ä¿Â¼ÀïÕÒµ½.sshÄ¿Â¼£¬ÀïÃæÓÐid_rsaºÍid_rsa.pubÁ½¸öÎÄ¼þ£¬ÕâÁ½¸ö¾ÍÊÇSSH KeyµÄÃØÔ¿¶Ô£¬id_rsaÊÇË½Ô¿£¬²»ÄÜÐ¹Â¶³öÈ¥£¬id_rsa.pubÊÇ¹«Ô¿£¬¿ÉÒÔ·ÅÐÄµØ¸æËßÈÎºÎÈË¡£
+µÚ2²½£ºµÇÂ½GitHub£¬´ò¿ª¡°Account settings¡±£¬¡°SSH Keys¡±Ò³Ãæ£º
+È»ºó£¬µã¡°Add SSH Key¡±£¬ÌîÉÏÈÎÒâTitle£¬ÔÚKeyÎÄ±¾¿òÀïÕ³Ìùid_rsa.pubÎÄ¼þµÄÄÚÈÝ£º
